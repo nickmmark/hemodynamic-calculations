@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulmonary Artery Pulsatility Index (PAPI) Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #FF0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9f7df;
+            border: 1px solid #a8d08d;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .guidance {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Pulmonary Artery Pulsatility Index (PAPI) Calculator</h2>
+
+        <label for="pasp">Pulmonary Artery Systolic Pressure (PASP) (mmHg):</label>
+        <input type="number" id="pasp" placeholder="Enter PASP">
+
+        <label for="padp">Pulmonary Artery Diastolic Pressure (PADP) (mmHg):</label>
+        <input type="number" id="padp" placeholder="Enter PADP">
+
+        <label for="rap">Right Atrial Pressure (RAP) (mmHg):</label>
+        <input type="number" id="rap" placeholder="Enter RAP">
+
+        <button onclick="calculatePAPI()">Calculate PAPI</button>
+
+        <div id="result" class="result" style="display: none;"></div>
+
+        <div class="guidance">
+            A pulmonary artery pulsatility index (PAPI) < 0.9 is indicative of right ventricular dysfunction and is associated with increased risk of RV mechanical support and mortality.
+        </div>
+    </div>
+
+    <script>
+        function calculatePAPI() {
+            const pasp = parseFloat(document.getElementById('pasp').value);
+            const padp = parseFloat(document.getElementById('padp').value);
+            const rap = parseFloat(document.getElementById('rap').value);
+
+            if (isNaN(pasp) || isNaN(padp) || isNaN(rap) || rap === 0) {
+                alert('Please enter valid numbers for all fields. Note: RAP cannot be zero.');
+                return;
+            }
+
+            const papi = (pasp - padp) / rap;
+            
+            const resultDiv = document.getElementById('result');
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = `Pulmonary Artery Pulsatility Index (PAPI): ${papi.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>
+

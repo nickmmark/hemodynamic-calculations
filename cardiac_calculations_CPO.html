@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardiac Power Output Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #FF0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9f7df;
+            border: 1px solid #a8d08d;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .guidance {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cardiac Power Output Calculator</h2>
+        <label for="cardiacOutput">Cardiac Output (liters/minute):</label>
+        <input type="number" id="cardiacOutput" placeholder="Enter Cardiac Output">
+
+        <label for="meanArterialPressure">Mean Arterial Pressure (mmHg):</label>
+        <input type="number" id="meanArterialPressure" placeholder="Enter Mean Arterial Pressure">
+
+        <button onclick="calculateCPO()">Calculate CPO</button>
+
+        <div id="result" class="result" style="display: none;"></div>
+
+        <div class="guidance">
+            Cardiac Power Output (CPO) &lt; 0.6 W is indicative of hemodynamic compromise and is associated with an increased risk of mortality.
+        </div>
+    </div>
+
+    <script>
+        function calculateCPO() {
+            const cardiacOutput = parseFloat(document.getElementById('cardiacOutput').value);
+            const meanArterialPressure = parseFloat(document.getElementById('meanArterialPressure').value);
+
+            if (isNaN(cardiacOutput) || isNaN(meanArterialPressure)) {
+                alert('Please enter valid numbers for both fields.');
+                return;
+            }
+
+            const cpo = (cardiacOutput * meanArterialPressure) / 451;
+            
+            const resultDiv = document.getElementById('result');
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = `Cardiac Power Output: ${cpo.toFixed(2)} watts`;
+        }
+    </script>
+</body>
+</html>
+

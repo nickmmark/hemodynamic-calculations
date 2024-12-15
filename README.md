@@ -33,17 +33,17 @@ By rearranging the above equations we get:
 VSW = (P_{mean arterial} - P_{filling pressure}) x stroke volume
 ```
 
-By multiplying by heart rate we can convert VSW to CPO:
+By multiplying by heart rate (HR) we can convert `VSW` to `CPO`:
 ```math
 CPO = (MAP - {Filling Pressure}) x {Cardiac Output}
 ```
 
-In order to make the units work (assuming CO in lpm and MAP and RAP in mmHh)
+In order to make the units work (assuming `CO` in lpm and `MAP` and `RAP` in mmHg) we need to divide by 451:
 ```math
 CPO = \frac {(CO - RAP) x MAP}{451}
 ```
 
-In situations where the RAP is relatively low, we can simplify to the standard formula:
+In situations where the `RAP` is relatively low (e.g. <10), we can simplify to the standard formula:
 ```math
 CPO = \frac {CO x MAP}{451}
 ```

@@ -9,7 +9,7 @@ Power is defined as work done per unit time. In the case of the heart, work is t
 VSW = \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V - \int_{ESV}^{EDV} P_{diastolic} (V)\mathrm{d}V
 ```
 ```math
-P_{mean} = /frac{ \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V}{EDV - ESV}
+P_{mean} = \frac{ \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V}{EDV - ESV}
 ```
 
 

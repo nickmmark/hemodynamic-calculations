@@ -89,7 +89,7 @@ PAPI = \frac{(PASP - PADP)}{RAP}
 ```
 
 ### Signficance
-A PAPI < 0.9 is suggestive of Right Ventricular Failure.
+A PAPI < 0.9 is suggestive of Right Ventricular Failure. A PAPI < 0.9 is associated with an increased risk mortality or requiring RV mechanical circulatory support.
 
 ### Calculator
 

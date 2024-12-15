@@ -45,7 +45,8 @@ CPO = \frac {CO x MAP}{451}
 ```
 
 ### Significance
-
+A normal cardiac power output (CPO) is between 0.8 and 1.1 watts.
+A CPO of less than 0.6 watts is a sign of hemodynamic compromise and is associated with a higher risk of mortality.
 
 ### Calculator
 

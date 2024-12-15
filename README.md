@@ -3,7 +3,10 @@ Hemodynamic calculations are useful for quantifying the severity of cardiogenic 
 This repository contains several hemodynamic calculations including Cardiac Power Output (CPO), Pulmonary Artery Pulsatility Index (PAPI).
 
 ### Cardiac power output (CPO)
-Power is defined as work done per unit time. In the case of the heart, work is typically expressed as ventricular stroke work (VSW). The product of VSW and heart rate (HR) is cardiac power output (CPO).
+Power is defined as work done per unit time. In the case of the heart, work is typically expressed as ventricular stroke work (VSW). 
+![](https://github.com/nickmmark/hemodynamic-calculations/blob/main/cardiac_stroke_work_figure.png)
+
+The product of VSW and heart rate (HR) is cardiac power output (CPO).
 
 ```math
 VSW = \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V - \int_{ESV}^{EDV} P_{diastolic} (V)\mathrm{d}V

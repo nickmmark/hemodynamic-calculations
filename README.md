@@ -49,6 +49,7 @@ A normal cardiac power output (CPO) is between 0.8 and 1.1 watts.
 A CPO of less than 0.6 watts is a sign of hemodynamic compromise and is associated with a higher risk of mortality.
 
 ### Calculator
+There are two versions of the calculator app - one that includes RAP and another that does not. For most situations where RAP is <10 we can ignore it and use the simpler calculator.
 ![](https://github.com/nickmmark/hemodynamic-calculations/blob/main/CPO_calculator_demo.gif)
 
 Demonstration of the web-based calculator

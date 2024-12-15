@@ -3,6 +3,8 @@ Hemodynamic calculations are useful for quantifying the severity of cardiogenic 
 This repository contains several hemodynamic calculations including Cardiac Power Output (CPO), Pulmonary Artery Pulsatility Index (PAPI).
 
 ## Cardiac power output (CPO)
+Cardiac power output (CPO) is a holistic measure of the heart's pumping ability, calculated by multiplying cardiac output (blood flow) by mean arterial pressure (blood pressure), essentially representing the rate of energy produced by the heart as it pumps blood throughout the body. This is analogous to the basic hydraulic flow formula `power` = `pressure` x `flow` CPO is considered a more comprehensive indicator of cardiac function compared to cardiac output alone, as it considers both pressure and flow.
+
 ### Derivation
 Power is defined as work done per unit time. In the case of the heart, work is typically expressed as ventricular stroke work (VSW), which is the area under the pressure volume curve. The product of VSW and heart rate (HR) is cardiac power output (CPO).
 ![](https://github.com/nickmmark/hemodynamic-calculations/blob/main/cardiac_stroke_work_figure.png)

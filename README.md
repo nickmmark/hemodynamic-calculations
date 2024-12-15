@@ -81,6 +81,9 @@ Compliance = \frac{\Delta Volume}{\Delta Pressure}
 Compliance_PA = \frac{RV Stroke Volume}{PAPP}
 ```
 
+Thus either ***increasing*** `RV stroke volume` or ***decreasing*** `pulmonary artery compliance` (PAC) will ***increase*** `PAPP`.
+
+
 ```math
 PAPI = \frac{(PASP - PADP)}{RAP}
 ```

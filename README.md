@@ -54,7 +54,7 @@ A CPO of less than 0.6 watts is a sign of hemodynamic compromise and is associat
 ## Pulmonary Artery Pulsatility Index (PAPI)
 ### Derivation
 ```math
-PAPI = (PASP - PADP) / RAP
+PAPI = \frac{(PASP - PADP)}{RAP}
 ```
 
 ### Signficance

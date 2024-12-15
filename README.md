@@ -63,33 +63,33 @@ Demonstration of the web-based calculator
 
 
 ## Pulmonary Artery Pulsatility Index (PAPI)
-
+The Pulmonary Artery Pulsatility Index (PAPI) is related to - but is not a direct measure of - right ventricular function. Several factors influence PAPI including `RV stroke volume`, `Pulmonary artery compliance`, `Right Atrial Pressure`, and `Pulmonary Artery Wedge Pressure`.
 
 ### Derivation
-
-
-The Pulmonary Artery Pulse Pressure (PAPP) is defined as:
+The Pulmonary Artery Pulse Pressure (PAPP) is defined as the difference of systolic and diastolic PA pressures:
 ```math
 PAPP = PASP - PADP
 ```
 
+Compliance is:
 ```math
 Compliance = \frac{\Delta Volume}{\Delta Pressure}
 ```
 
+And pulmonary artery compliance is:
 ```math
 Compliance_PA = \frac{RV Stroke Volume}{PAPP}
 ```
 
-Thus either ***increasing*** `RV stroke volume` or ***decreasing*** `pulmonary artery compliance` (PAC) will ***increase*** `PAPP`.
-
+Thus either ***increasing*** `RV stroke volume` or ***decreasing*** `pulmonary artery capacitance` (PAC) will ***increase*** `PAPP`.
+Pulmonary arterial capacitance (PAC) has a hyperbolic relationship with pulmonary vascular resistance (PVR). The product of PAC and PVR is the pulmonary arterial time constant (RC time), defined as the time it takes for the pulmonary artery pressure to drop by 63%.
 
 ```math
 PAPI = \frac{(PASP - PADP)}{RAP}
 ```
 
 ### Signficance
-
+A PAPI < 0.9 is suggestive of Right Ventricular Failure.
 
 ### Calculator
 

@@ -16,8 +16,13 @@ P_{filling pressure} = \frac{ \int_{ESV}^{EDV} P_{diastolic} (V)\mathrm{d}V}{EDV
 ```
 
 ```math
-Stroke Volume = EDV - ESV
+stroke Volume = EDV - ESV
 ```
+
+```math
+VSW = (P_{mean systolic} - P_{filling pressure}) x stroke volume
+```
+
 
 ```math
 CPO = CO x MAP / 451

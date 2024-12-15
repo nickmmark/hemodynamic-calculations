@@ -17,9 +17,13 @@ We can approximate the mean arterial pressure as follows:
 ```math
 P_{mean arterial} = \frac{ \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V}{EDV - ESV}
 ```
+
+
 ```math
 P_{filling pressure} = \frac{ \int_{ESV}^{EDV} P_{diastolic} (V)\mathrm{d}V}{EDV - ESV}
 ```
+
+
 
 ```math
 stroke Volume = EDV - ESV
@@ -69,5 +73,5 @@ PAPI = \frac{(PASP - PADP)}{RAP}
 
 
 ### References
-
-Lim HS. _[Cardiac Power Output Revisited](https://doi.org/10.1161/CIRCHEARTFAILURE.120.007393)_ Circ Heart Fail. 2020
+- Lim HS. ***[Cardiac Power Output Revisited](https://doi.org/10.1161/CIRCHEARTFAILURE.120.007393)*** _Circ Heart Fail._ 2020
+- Lim HS, Gustafsson F. [Pulmonary artery pulsatility index: physiological basis and clinical application.](https://onlinelibrary.wiley.com/doi/full/10.1002/ejhf.1679) _Eur J Heart Fail._ 2020

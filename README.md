@@ -6,7 +6,7 @@ This repository contains several hemodynamic calculations including Cardiac Powe
 Power is defined as work done per unit time. In the case of the heart, work is typically expressed as ventricular stroke work (VSW).
 
 ```math
-VSW = \int_[ESV]^\[EDV] V,\mathrm{d}V
+VSW = \int_{ESV}^\{EDV} V,\mathrm{d}V
 ```
 
 

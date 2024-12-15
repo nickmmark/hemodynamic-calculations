@@ -2,6 +2,6 @@
 web calculator for hemodynamic parameters useful in patients with cardiogenic shock
 
 ### Cardiac power output (CPO)
-`math
+```math
 CPO = CO x MAP / 451
-`
+```

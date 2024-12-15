@@ -9,7 +9,7 @@ Power is defined as work done per unit time. In the case of the heart, work is t
 VSW = \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V - \int_{ESV}^{EDV} P_{diastolic} (V)\mathrm{d}V
 ```
 ```math
-P_{mean systolic} = \frac{ \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V}{EDV - ESV}
+P_{mean arterial} = \frac{ \int_{ESV}^{EDV} P_{systolic} (V)\mathrm{d}V}{EDV - ESV}
 ```
 ```math
 P_{filling pressure} = \frac{ \int_{ESV}^{EDV} P_{diastolic} (V)\mathrm{d}V}{EDV - ESV}
@@ -20,7 +20,11 @@ stroke Volume = EDV - ESV
 ```
 
 ```math
-VSW = (P_{mean systolic} - P_{filling pressure}) x stroke volume
+VSW = (P_{mean arterial} - P_{filling pressure}) x stroke volume
+```
+
+```math
+VSW = (MAP - {Filling Pressure}) x {Cardiac Output}
 ```
 
 

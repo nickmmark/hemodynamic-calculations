@@ -27,9 +27,13 @@ VSW = (P_{mean arterial} - P_{filling pressure}) x stroke volume
 CPO = (MAP - {Filling Pressure}) x {Cardiac Output}
 ```
 
-
 ```math
-CPO = CO x MAP / 451
+CPO = \frac {(CO - RAP) x MAP}{451}
+```
+
+In situations where the RAP is relatively low, we can simplify as:
+```math
+CPO = \frac {CO x MAP}{451}
 ```
 
 ### Pulmonary Artery Pulsatility Index (PAPI)

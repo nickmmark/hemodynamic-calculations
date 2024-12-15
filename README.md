@@ -50,7 +50,10 @@ A CPO of less than 0.6 watts is a sign of hemodynamic compromise and is associat
 
 ### Calculator
 ![](https://github.com/nickmmark/hemodynamic-calculations/blob/main/CPO_calculator_demo.gif)
+
 Demonstration of the web-based calculator
+
+
 
 ## Pulmonary Artery Pulsatility Index (PAPI)
 ### Derivation

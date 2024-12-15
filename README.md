@@ -78,7 +78,7 @@ Compliance = \frac{\Delta Volume}{\Delta Pressure}
 
 And pulmonary artery compliance is:
 ```math
-Compliance_PA = \frac{RV Stroke Volume}{PAPP}
+Compliance_{PA} = \frac{RV Stroke Volume}{PAPP}
 ```
 
 Thus either ***increasing*** `RV stroke volume` or ***decreasing*** `pulmonary artery capacitance` (PAC) will ***increase*** `PAPP`.

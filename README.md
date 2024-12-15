@@ -77,6 +77,9 @@ PAPP = PASP - PADP
 Compliance = \frac{\Delta Volume}{\Delta Pressure}
 ```
 
+```math
+Compliance_PA = \frac{RV Stroke Volume}{\PAPP}
+```
 
 ```math
 PAPI = \frac{(PASP - PADP)}{RAP}

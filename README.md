@@ -6,7 +6,7 @@ This repository contains several hemodynamic calculations including Cardiac Powe
 Cardiac power output (CPO) is a holistic measure of the heart's pumping ability, calculated by multiplying cardiac output (blood flow) by mean arterial pressure (blood pressure), essentially representing the rate of energy produced by the heart as it pumps blood throughout the body. This is analogous to the basic hydraulic flow formula `power` = `pressure` x `flow` CPO is considered a more comprehensive indicator of cardiac function compared to cardiac output alone, as it considers both pressure and flow.
 
 ### Derivation
-Power is defined as work done per unit time. In the case of the heart, work is typically expressed as ventricular stroke work (VSW), which is the area under the pressure volume curve. The product of VSW and heart rate (HR) is cardiac power output (CPO).
+`Power` is defined as `work` done per unit time. In the case of the heart, `work` is typically expressed as `ventricular stroke work` (VSW), which is the area under the pressure volume curve. The product of VSW and heart rate (HR) is `cardiac power output` (CPO).
 ![](https://github.com/nickmmark/hemodynamic-calculations/blob/main/cardiac_stroke_work_figure.png)
 
 We can measure the volume under the curve by subtracting the diastolic integral from the systolic integral:
@@ -65,3 +65,4 @@ PAPI = \frac{(PASP - PADP)}{RAP}
 
 ### References
 
+Lim HS. _[Cardiac Power Output Revisited](https://doi.org/10.1161/CIRCHEARTFAILURE.120.007393)_ Circ Heart Fail. 2020

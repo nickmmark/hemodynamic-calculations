@@ -24,7 +24,7 @@ VSW = (P_{mean arterial} - P_{filling pressure}) x stroke volume
 ```
 
 ```math
-VSW = (MAP - {Filling Pressure}) x {Cardiac Output}
+CPO = (MAP - {Filling Pressure}) x {Cardiac Output}
 ```
 
 

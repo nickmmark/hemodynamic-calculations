@@ -78,7 +78,7 @@ Compliance = \frac{\Delta Volume}{\Delta Pressure}
 ```
 
 ```math
-Compliance_PA = \frac{RV Stroke Volume}{\PAPP}
+Compliance_PA = \frac{RV Stroke Volume}{PAPP}
 ```
 
 ```math

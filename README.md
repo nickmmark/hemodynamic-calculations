@@ -54,6 +54,8 @@ A CPO of less than 0.6 watts is a sign of hemodynamic compromise and is associat
 
 ### Calculator
 There are two versions of the calculator app - one that includes RAP and another that does not. For most situations where RAP is <10 we can ignore it and use the simpler calculator.
+
+
 ![](https://github.com/nickmmark/hemodynamic-calculations/blob/main/CPO_calculator_demo.gif)
 
 Demonstration of the web-based calculator
@@ -61,7 +63,21 @@ Demonstration of the web-based calculator
 
 
 ## Pulmonary Artery Pulsatility Index (PAPI)
+
+
 ### Derivation
+
+
+The Pulmonary Artery Pulse Pressure (PAPP) is defined as:
+```math
+PAPP = PASP - PADP
+```
+
+```math
+Compliance = \frac{\Delta Volume}{\Delta Pressure}
+```
+
+
 ```math
 PAPI = \frac{(PASP - PADP)}{RAP}
 ```

@@ -100,5 +100,6 @@ This code is provided "as is", without warranty of any kind. Double check any ca
 ### References
 - Lim HS. ***[Cardiac Power Output Revisited](https://doi.org/10.1161/CIRCHEARTFAILURE.120.007393)*** _Circ Heart Fail._ 2020
 - Lim HS, Gustafsson F. ***[Pulmonary artery pulsatility index: physiological basis and clinical application.](https://onlinelibrary.wiley.com/doi/full/10.1002/ejhf.1679)*** _Eur J Heart Fail._ 2020
+- Korabathina R _et al_, ***[The pulmonary artery pulsatility index identifies severe right ventricular dysfunction in acute inferior myocardial infarction](https://pubmed.ncbi.nlm.nih.gov/21954053/)***. _Catheter Cardiovasc Interv._ 2012
 - Fincke _et al_, ***[Cardiac power is the strongest hemodynamic correlate of mortality in cardiogenic shock: a report from the SHOCK trial registry](https://pubmed.ncbi.nlm.nih.gov/15261929/). _J Am Coll Cardiol._ 2004
 - Mendoza DD, Cooper HA, Panza JA. ***[Cardiac power output predicts mortality across a broad spectrum of patients with acute cardiac disease](https://pubmed.ncbi.nlm.nih.gov/17307413/).*** Am Heart J. 2007
